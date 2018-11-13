@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\bin\Debug\STK.exe" total="8" errors="0" failures="8" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-11-13" time="14:26:07">
+  <environment nunit-version="2.7.0.0" clr-version="2.0.50727.8936" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.7.0\bin" machine-name="DESKTOP-LEO9AKM" user="KHONGTUONGQUANG" user-domain="AzureAD" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\bin\Debug\STK.exe" executed="True" result="Failure" success="False" time="98.923" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="STK" executed="True" result="Failure" success="False" time="98.915" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="TestClass" executed="True" result="Failure" success="False" time="98.913" asserts="0">
+            <results>
+              <test-case name="STK.TestClass.CompareMoney" executed="True" result="Failure" success="False" time="0.411" asserts="2">
+                <failure>
+                  <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[at STK.TestClass.CompareMoney() in E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\TestClass.cs:line 19
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="STK.TestClass.denHan" executed="True" result="Failure" success="False" time="0.459" asserts="2">
+                <failure>
+                  <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[at STK.TestClass.denHan() in E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\TestClass.cs:line 78
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="STK.TestClass.GetDays" executed="True" result="Failure" success="False" time="0.024" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: 283
+  But was:  285
+]]></message>
+                  <stack-trace><![CDATA[at STK.TestClass.GetDays() in E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\TestClass.cs:line 26
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="STK.TestClass.getMonth" executed="True" result="Failure" success="False" time="0.017" asserts="2">
+                <failure>
+                  <message><![CDATA[  Expected: 12
+  But was:  9
+]]></message>
+                  <stack-trace><![CDATA[at STK.TestClass.getMonth() in E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\TestClass.cs:line 37
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="STK.TestClass.kiemTraKyHan" executed="True" result="Failure" success="False" time="0.011" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: 12
+  But was:  0
+]]></message>
+                  <stack-trace><![CDATA[at STK.TestClass.kiemTraKyHan() in E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\TestClass.cs:line 60
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="STK.TestClass.kyHan" executed="True" result="Failure" success="False" time="0.014" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected string length 8 but was 12. Strings differ at index 0.
+  Expected: "12 tháng"
+  But was:  "Không kỳ hạn"
+  -----------^
+]]></message>
+                  <stack-trace><![CDATA[at STK.TestClass.kyHan() in E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\TestClass.cs:line 44
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="STK.TestClass.Rut" executed="True" result="Failure" success="False" time="97.783" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at STK.TestClass.Rut() in E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\TestClass.cs:line 68
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="STK.TestClass.true0KyHan" executed="True" result="Failure" success="False" time="0.015" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: "12 tháng"
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[at STK.TestClass.true0KyHan() in E:\Download\13-11-2018~\13-11-2018\STK_MoneyLover\STK\TestClass.cs:line 52
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
